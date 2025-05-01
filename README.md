@@ -42,10 +42,10 @@ Antes de ejecutar la aplicación, asegúrate de tener:
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/Blockchain-Viewer-PRO.git
+git clone https://github.com/quantumvortex369/BlockchainViewerPro.git
 ```
 ```bash
-cd Blockchain-Viewer-PRO
+cd BlockchainViewerPro-main
 ```
 
 2. Instala las dependencias:
