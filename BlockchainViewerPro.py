@@ -43,8 +43,8 @@ class InicioApp(QWidget):
 
         title = QLabel("Blockchain Viewer PRO")
         title.setAlignment(Qt.AlignCenter)
-        start_btn = QPushButton("🚀 Iniciar Visualizador")
-        exit_btn = QPushButton("❌ Salir")
+        start_btn = QPushButton("Iniciar Visualizador")
+        exit_btn = QPushButton("Salir")
 
         start_btn.clicked.connect(self.ir_a_visualizador)
         exit_btn.clicked.connect(QApplication.quit)
@@ -85,10 +85,10 @@ class BlockchainViewer(QWidget):
 
         # Botones
         self.control_layout = QHBoxLayout()
-        self.start_button = QPushButton("🟢 Empezar")
-        self.stop_button = QPushButton("🔴 Apagar")
-        self.export_button = QPushButton("💾 Exportar CSV")
-        self.back_button = QPushButton("🏠 Volver al inicio")
+        self.start_button = QPushButton("Empezar")
+        self.stop_button = QPushButton("Apagar")
+        self.export_button = QPushButton("Exportar CSV")
+        self.back_button = QPushButton("Volver al inicio")
         self.control_layout.addWidget(self.start_button)
         self.control_layout.addWidget(self.stop_button)
         self.control_layout.addWidget(self.export_button)
